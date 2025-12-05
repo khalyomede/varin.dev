@@ -1,0 +1,1 @@
+import{_ as i,c as a,o as n,ae as e}from"./chunks/framework.CB66Z1r5.js";const c=JSON.parse('{"title":"3. Run V","description":"","frontmatter":{},"headers":[],"relativePath":"3-run-v.md","filePath":"3-run-v.md"}'),t={name:"3-run-v.md"};function l(p,s,h,k,r,d){return n(),a("div",null,[...s[0]||(s[0]=[e("",31)])])}const g=i(t,[["render",l]]);export{c as __pageData,g as default};

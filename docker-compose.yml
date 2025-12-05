@@ -1,0 +1,18 @@
+services:
+  npm:
+    image: node:25-alpine
+    user: node
+    entrypoint: npm
+    working_dir: /home/node/app
+    volumes:
+      - .:/home/node/app
+    ports:
+      - "5173:5173"
+
+  v:
+    image: khalyomede/vlang:latest-alpine
+    entrypoint: v
+    user: root
+    working_dir: /root/app
+    volumes:
+      - .:/root/app

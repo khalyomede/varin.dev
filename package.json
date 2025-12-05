@@ -1,0 +1,33 @@
+{
+  "name": "varin.dev",
+  "version": "0.1.0",
+  "description": "Learn V lang and its ecosystem for free.",
+  "keywords": [
+    "varin",
+    "learn",
+    "v",
+    "vlang"
+  ],
+  "homepage": "https://github.com/khalyomede/varin.dev#readme",
+  "bugs": {
+    "url": "https://github.com/khalyomede/varin.dev/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khalyomede/varin.dev.git"
+  },
+  "license": "MIT",
+  "author": "Khalyomede <khalyomede@gmail.com>",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init": "vitepress init",
+    "docs:dev": "vitepress dev --host",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "1.6.4"
+  }
+}
