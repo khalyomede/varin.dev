@@ -28,7 +28,13 @@ export default defineConfig({
           { text: '5. Compile', link: '/5-compile' },
           { text: '6. Format conventions', link: '/6-format-conventions' },
           { text: '7. Comments', link: '/7-comments' },
-          { text: '30. Reading big files', link: '/30-reading-big-files' },
+          { text: '8. Variables', link: '/8-variables' },
+          { text: '9. Type: string', link: '/9-type-string' },
+          { text: '10. Type: boolean', link: '/10-type-boolean' },
+          { text: '11. Type: integer', link: '/11-type-integer' },
+          { text: '12. Conditions', link: '/12-conditions' },
+          { text: '13. Reading files', link: '/13-reading-files' },
+          { text: '14. Reading big files', link: '/14-reading-big-files' },
         ]
       }
     ],
