@@ -1,4 +1,4 @@
-# 12. Conditions
+# 13. Conditions
 
 To create conditional code, use the `if` operator.
 

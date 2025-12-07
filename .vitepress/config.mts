@@ -32,9 +32,10 @@ export default defineConfig({
           { text: '9. Type: string', link: '/9-type-string' },
           { text: '10. Type: boolean', link: '/10-type-boolean' },
           { text: '11. Type: integer', link: '/11-type-integer' },
-          { text: '12. Conditions', link: '/12-conditions' },
-          { text: '13. Reading files', link: '/13-reading-files' },
-          { text: '14. Reading big files', link: '/14-reading-big-files' },
+          { text: '12. Type: floating', link: '/12-type-floating' },
+          { text: '13. Conditions', link: '/13-conditions' },
+          { text: '14. Reading files', link: '/14-reading-files' },
+          { text: '15. Reading big files', link: '/15-reading-big-files' },
         ]
       }
     ],

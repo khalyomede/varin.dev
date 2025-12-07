@@ -75,7 +75,7 @@ fn main() {
 
   println("Starting MySQL on port ${port}")
   println("using ${cores} cores")
-  println("max memory: ${max_buffer_pool_bytes})")
+  println("max memory: ${max_buffer_pool_bytes} bytes")
 }
 ```
 
@@ -107,13 +107,6 @@ There is different kind of unsigned integers depending on the size you need.
 ::: info
 As signed integers hold a sign (+/-), they hold lower minimas/maximas than their unsigned counterpart.
 :::
-
-## Methods
-
-Integers have built-in methods and helpers. Refer to the official documentation:
-
-- [Built-in integer methods](https://github.com/vlang/v/blob/master/vlib/builtin/int.v) documentation
-- [Math](https://modules.vlang.io/math.html) built-in module
 
 ## Extrema
 
@@ -156,3 +149,70 @@ The `int` type takes the same boundaries as the `i32` type, **no matter** the ar
 ::: warning
 When performing addition of two u8 for example, be careful the result may overflow the maximum of an u8. You should cast the result as an u16 at least.
 :::
+
+## Hexadecimals notation
+
+Hexadecimal numbers are numbers written using a base 16 (from 0 to 9 then A to F).
+
+You can use an hexadecimal notation to store a integer or compare it against another integer.
+
+```v
+module main
+
+fn main() {
+  leaf_green := 0x2E6F40
+
+  println("Leaf green color is ${leaf_green}.")
+}
+```
+
+```
+Leaf green color is 3043136.
+```
+
+## Binary notation
+
+Binary numbers are numbers written in base 2 (0 and 1).
+
+You can use the binary notation to define an integer or to compare it.
+
+```v
+module main
+
+fn main() {
+  twelve_binary := 0b1100
+
+  println("Twelve in binary is ${twelve_binary}.")
+}
+```
+
+```
+Twelve in binary is 12.
+```
+
+## Octal notation
+
+Octal numbers are numbers written in base 8 (from 0 to 7).
+
+You can use octal notation to write numbers of to compare against numbers.
+
+```v
+module main
+
+fn main() {
+  execution_write := 0o755
+
+  println("Execution permission value is ${execution_write}.")
+}
+```
+
+```
+Execution permission value is 493.
+```
+
+## Methods
+
+Integers have built-in methods and helpers. Refer to the official documentation:
+
+- [Built-in integer methods](https://github.com/vlang/v/blob/master/vlib/builtin/int.v) documentation
+- [Math](https://modules.vlang.io/math.html) built-in module
