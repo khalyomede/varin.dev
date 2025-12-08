@@ -27,7 +27,7 @@ fn main() {
   last_name := "Doe"
 
   println("Hello ${first_name} ${last_name}")
-} + first_name + " " + last_name
+}
 ```
 
 ## Methods
