@@ -15,29 +15,55 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'What is Varin?',
-        link: '/what-is-varin',
+        text: 'About Varin',
+        link: '/about-varin',
       },
       {
-        text: 'Documentation',
+        text: 'Getting started',
         items: [
-          { text: '1. What is V?', link: '/1-what-is-v' },
-          { text: '2. Hello world', link: '/2-hello-world' },
-          { text: '3. Run V', link: '/3-run-v' },
-          { text: '4. Watch for changes', link: '/4-watch-for-changes' },
-          { text: '5. Compile', link: '/5-compile' },
-          { text: '6. Format conventions', link: '/6-format-conventions' },
-          { text: '7. Comments', link: '/7-comments' },
-          { text: '8. Variables', link: '/8-variables' },
-          { text: '9. Type: string', link: '/9-type-string' },
-          { text: '10. Type: boolean', link: '/10-type-boolean' },
-          { text: '11. Type: integer', link: '/11-type-integer' },
-          { text: '12. Type: floating', link: '/12-type-floating' },
-          { text: '13. Conditions', link: '/13-conditions' },
-          { text: '14. Reading files', link: '/14-reading-files' },
-          { text: '15. Reading big files', link: '/15-reading-big-files' },
-        ]
-      }
+          { text: 'What is V?', link: '/getting-started/what-is-v' },
+          { text: 'Hello world', link: '/getting-started/hello-world' },
+          { text: 'Installation', link: '/getting-started/installation' },
+          { text: 'Comments', link: '/getting-started/comments' },
+          { text: 'Variables', link: '/getting-started/variables' },
+        ],
+      },
+      {
+        text: 'Commands',
+        items: [
+          { text: 'Run', link: '/commands/run' },
+          { text: 'Watch', link: '/commands/watch' },
+          { text: 'Test', link: '/commands/test' },
+          { text: 'Fmt', link: '/commands/fmt' },
+          { text: 'Compile', link: '/commands/compile' },
+        ],
+      },
+      {
+        text: 'Types',
+        items: [
+          { text: 'string', link: '/types/string' },
+          { text: 'bool', link: '/types/bool' },
+          { text: 'int', link: '/types/int' },
+          { text: 'float', link: '/types/float' },
+        ],
+      },
+      {
+        text: 'Operators',
+        items: [
+          { text: 'mut', link: '/operators/mut' },
+          { text: 'if', link: '/operators/if' },
+          { text: 'match', link: '/operators/match' },
+          { text: 'defer', link: '/operators/defer' },
+          { text: 'assert', link: '/operators/assert' },
+        ],
+      },
+      {
+        text: 'Advanced',
+        items: [
+          { text: 'Reading files', link: '/advanced/reading-files' },
+          { text: 'Reading big files', link: '/advanced/reading-big-files' },
+        ],
+      },
     ],
 
     socialLinks: [

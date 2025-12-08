@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: Get started
-      link: /1-what-is-v
+      link: /getting-started/what-is-v
     - theme: alt
       text: Learn more
-      link: /what-is-varin
+      link: /about-varin
 
 features:
   - title: Easy
