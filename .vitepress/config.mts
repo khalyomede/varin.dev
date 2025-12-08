@@ -19,6 +19,14 @@ export default defineConfig({
         link: '/about-varin',
       },
       {
+        text: 'Resources',
+        items: [
+          { text: 'Documentation', link: '/resources/documentation' },
+          { text: 'Modules', link: '/resources/modules' },
+          { text: 'Playground', link: '/resources/playground' },
+        ],
+      },
+      {
         text: 'Getting started',
         items: [
           { text: 'What is V?', link: '/getting-started/what-is-v' },
@@ -31,10 +39,12 @@ export default defineConfig({
       {
         text: 'Commands',
         items: [
-          { text: 'Run', link: '/commands/run' },
-          { text: 'Watch', link: '/commands/watch' },
-          { text: 'Test', link: '/commands/test' },
-          { text: 'Fmt', link: '/commands/fmt' },
+          { text: 'init', link: '/commands/init' },
+          { text: 'run', link: '/commands/run' },
+          { text: 'watch', link: '/commands/watch' },
+          { text: 'test', link: '/commands/test' },
+          { text: 'fmt', link: '/commands/fmt' },
+          { text: 'self', link: '/commands/self' },
           { text: 'Compile', link: '/commands/compile' },
         ],
       },
@@ -62,6 +72,13 @@ export default defineConfig({
         items: [
           { text: 'Reading files', link: '/advanced/reading-files' },
           { text: 'Reading big files', link: '/advanced/reading-big-files' },
+        ],
+      },
+      {
+        text: 'Package development',
+        items: [
+          { text: 'Modules', link: '/package-development/modules' },
+          { text: 'Packages', link: '/package-development/packages' },
         ],
       },
     ],
