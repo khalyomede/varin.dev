@@ -7,6 +7,13 @@ export default defineConfig({
   outDir: "docs",
   base: "/varin.dev",
   description: "Learn V lang and its ecosystem for free.",
+  head: [
+    // Example using Fira Code from Google Fonts
+    ['link', {
+      rel: 'stylesheet',
+      href: 'https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap'
+    }]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
