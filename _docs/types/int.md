@@ -210,6 +210,10 @@ fn main() {
 Execution permission value is 493.
 ```
 
+## Scientific notation
+
+_work in progress._
+
 ## Methods
 
 Integers have built-in methods and helpers. Refer to the official documentation:

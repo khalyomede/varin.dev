@@ -31,6 +31,7 @@ export default defineConfig({
           { text: 'Documentation', link: '/resources/documentation' },
           { text: 'Modules', link: '/resources/modules' },
           { text: 'Playground', link: '/resources/playground' },
+          { text: 'VPM', link: '/resources/vpm' },
         ],
       },
       {
@@ -50,6 +51,7 @@ export default defineConfig({
           { text: 'run', link: '/commands/run' },
           { text: 'watch', link: '/commands/watch' },
           { text: 'test', link: '/commands/test' },
+          { text: 'install', link: '/commands/install' },
           { text: 'fmt', link: '/commands/fmt' },
           { text: 'self', link: '/commands/self' },
           { text: 'Compile', link: '/commands/compile' },

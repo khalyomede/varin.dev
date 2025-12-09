@@ -1,1 +1,0 @@
-import{_ as i,c as a,o as n,ae as t}from"./chunks/framework.CB66Z1r5.js";const E=JSON.parse('{"title":"int","description":"","frontmatter":{},"headers":[],"relativePath":"types/int.md","filePath":"types/int.md"}'),e={name:"types/int.md"};function l(p,s,h,k,r,d){return n(),a("div",null,[...s[0]||(s[0]=[t("",49)])])}const g=i(e,[["render",l]]);export{E as __pageData,g as default};
