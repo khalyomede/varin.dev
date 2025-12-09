@@ -62,6 +62,7 @@ export default defineConfig({
           { text: 'bool', link: '/types/bool' },
           { text: 'int', link: '/types/int' },
           { text: 'float', link: '/types/float' },
+          { text: 'interface', link: '/types/interface' },
         ],
       },
       {
@@ -86,6 +87,12 @@ export default defineConfig({
         items: [
           { text: 'Modules', link: '/package-development/modules' },
           { text: 'Packages', link: '/package-development/packages' },
+        ],
+      },
+      {
+        text: 'Constants',
+        items: [
+          { text: '@FILE', link: '/constants/@file' },
         ],
       },
     ],
