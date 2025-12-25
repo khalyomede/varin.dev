@@ -6,8 +6,8 @@ pre code {
     font-variant-ligatures: normal;
     font-feature-settings: 'liga' 1, 'calt' 1;
     text-rendering: optimizeLegibility;
-    letter-spacing: 0.5px;
-    font-size: 16px;
+    letter-spacing: 0.4px;
+    font-size: 14px;
     /* Increase from default ~14px */
 }
 
@@ -16,7 +16,7 @@ code {
     font-family: 'Fira Code', 'JetBrains Mono', monospace;
     font-variant-ligatures: normal;
     font-feature-settings: 'liga' 1, 'calt' 1;
-    letter-spacing: 0.3px;
-    font-size: 15px;
+    letter-spacing: 0.2px;
+    font-size: 13px;
     /* Slightly smaller for inline code */
 }

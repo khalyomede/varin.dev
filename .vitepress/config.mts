@@ -64,6 +64,7 @@ export default defineConfig({
           { text: 'bool', link: '/types/bool' },
           { text: 'int', link: '/types/int' },
           { text: 'float', link: '/types/float' },
+          { text: 'array', link: '/types/array' },
           { text: 'interface', link: '/types/interface' },
         ],
       },
@@ -78,10 +79,18 @@ export default defineConfig({
         ],
       },
       {
+        text: 'Functions',
+        items: [
+          { text: 'panic', link: '/functions/panic' },
+          { text: 'println', link: '/functions/println' },
+        ]
+      },
+      {
         text: 'Advanced',
         items: [
           { text: 'Reading files', link: '/advanced/reading-files' },
           { text: 'Reading big files', link: '/advanced/reading-big-files' },
+          { text: 'Heap VS stack', link: '/advanced/heap-vs-stack' },
         ],
       },
       {
